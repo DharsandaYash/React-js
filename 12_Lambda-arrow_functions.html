@@ -1,0 +1,15 @@
+<script>
+/*
+Arrow function with default parameters:
+In ES6, the function allows the initialization of parameters with default values, if there is no value passed to it, or it is undefined.
+*/
+var show = (a, b=200) => { 
+   console.log(a + " " + b); } 
+show(100); 
+show(100,500);
+/*	
+In the above function, the value of b is set to 200 by default. 
+The function will always consider 200 as the value of b if no value of b is explicitly passed.
+The default value of the parameter 'b' will get overwritten if the function passes its value explicitly.
+*/
+</script>

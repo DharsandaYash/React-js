@@ -1,0 +1,12 @@
+<script>
+/*
+Arrow function with Rest parameters:
+Rest parameters do not restrict you to pass the number of values in a function, but all the passed values must be of the same type. 
+We can also say that rest parameters act as the placeholders for multiple arguments of the same type.
+For declaring the rest parameter, the parameter name should be prefixed with the spread operator that has three periods(…)(not more than three or not less than three).	
+*/
+var show = (a, ...args) => {  
+    console.log(a + " " + args);  
+}  
+show(100,200,300,400,500,600); 
+</script>
