@@ -2,13 +2,13 @@ import React, { Component } from "react";
 class EventHandleWithClass extends Component{
     render()
     {
-        function Demo()
+        function view()
         {
-            alert("Hello World");
+            alert("Hello Dharsanda Yash");
         }
         return(
             <>
-                <button onClick={Demo}>Click Me </button>
+                <button onClick={view}>Click Me </button>
             </>
         );
     }

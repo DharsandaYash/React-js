@@ -1,8 +1,8 @@
-function PassingArgumentWithFunction({name})
+function PassingArgumentWithFunction({value})
 {
     return(
         <>
-            <h1>Argument with function {name}</h1>
+            <h1>Argument with function {value}</h1>
         </>
     )
 }

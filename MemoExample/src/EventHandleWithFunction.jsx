@@ -1,11 +1,11 @@
 function EventHandleWithFunction()
 {
-    function Demo()
+    function view()
     {
-        alert("This is Function Component !")
+        alert("unction Component Called.....!")
     }
     return(<>
-        <button onClick={Demo}>Click Me</button>
+        <button onClick={view}>Click Me</button>
     </>)
 }
 export default EventHandleWithFunction;
