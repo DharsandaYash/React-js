@@ -6,8 +6,9 @@ import UsingArrowMethod from './UsingArrowMethod'
 import BindingWithClassComponent from './BindingWithClassComponent'
 import Constructore from './Constructure'
 import Use_state_with_object from './Use_state_with_object'
-import Usestate_with_array from './usestate_with_array'
+//import Usestate_with_array from './usestate_with_array'
 import Spreed_operator from './Spreed_operator'
+import Usestate_with_update_array from './Usestate_with_update_array'
 
 function App1() {
 
@@ -73,5 +74,16 @@ function App6()
   )
 }
 
+function App7()
+{
+  return(
 
-export default App6;
+    <>
+     <Usestate_with_update_array></Usestate_with_update_array>
+    </>
+
+  )
+}
+
+
+export default App7;
